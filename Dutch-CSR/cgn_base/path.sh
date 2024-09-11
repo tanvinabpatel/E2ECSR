@@ -1,11 +1,7 @@
-#MAIN_ROOT=/tmp/tbpatel/espnet_adv_May22/espnet
-#MAIN_ROOT=/tudelft.net/staff-bulk/ewi/insy/SpeechLab/Software/espnet_advanced/espnet
-MAIN_ROOT=/tudelft.net/staff-bulk/ewi/insy/SpeechLab/Software/espnet-v8/espnet
-#MAIN_ROOT=/tudelft.net/staff-bulk/ewi/insy/SpeechLab/Software/espnet-v10.5/espnet
+MAIN_ROOT=/tudelft/SpeechLab/Software/espnet-v8/espnet
 
-#KALDI_ROOT=$MAIN_ROOT/tools/kaldi
-export KALDI_ROOT=/tudelft.net/staff-bulk/ewi/insy/SpeechLab/Software/kaldi
-export FST_ROOT=/tudelft.net/staff-bulk/ewi/insy/SpeechLab/Software/kaldi
+export KALDI_ROOT=/tudelft/SpeechLab//Software/kaldi
+export FST_ROOT=/tudelft/SpeechLab/Software/kaldi
 
 export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PATH
 #export PATH=$PWD/utils/:$FST_ROOT/tools/openfst/bin:$PATH
